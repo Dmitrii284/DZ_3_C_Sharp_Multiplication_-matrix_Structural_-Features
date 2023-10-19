@@ -22,12 +22,12 @@ namespace DZ_3_C_Sharp_Multiplication__matrix_Structural__Features
 {
     internal class Palindrom
     {
-        public static bool isPalindrom = IsPalindrom(Program.num);               
+        public static bool isPalindrom = IsPalindrom(Program.num);
         public static bool IsPalindrom(int num)
         {
             string numString = num.ToString();
             int length = numString.Length;
-            for(int i = 0; i < length/2; i++)
+            for (int i = 0; i < length / 2; i++)
             {
                 if (numString[i] != numString[length - 1 - i])
                 {
@@ -36,6 +36,6 @@ namespace DZ_3_C_Sharp_Multiplication__matrix_Structural__Features
             }
             return true;
         }
-       
+
     }
 }

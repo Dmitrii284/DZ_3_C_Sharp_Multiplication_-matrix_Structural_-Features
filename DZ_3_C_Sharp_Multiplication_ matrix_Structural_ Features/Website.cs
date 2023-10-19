@@ -16,10 +16,10 @@ namespace DZ_3_C_Sharp_Multiplication__matrix_Structural__Features
 {
     internal class Website
     {
-        private string name;
-        private string path;
-        private string description;
-        private string ipAddress;
+        private string? name;
+        private string? path;
+        private string? description;
+        private string? ipAddress;
 
         public void SetName(string name)
         {
